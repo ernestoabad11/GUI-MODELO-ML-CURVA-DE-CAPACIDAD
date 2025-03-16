@@ -1,11 +1,11 @@
 ## Instructions
 
 ### Python 
-For the latest streamlit versions, we need to have python 3.10 and higher installed *(as of Octobre 2022)*.
+For the latest streamlit versions, we need to have python 3.10 and higher installed 
 
 ## Navigate to the project folder:
 
-`cd ifc-101-course/episode-09/streamlit-ifc-template/`
+`cd GUI-MODELO-ML-CURVA-DE-CAPACIDAD/`
 
 ### Install Dependencies 
 
@@ -14,4 +14,4 @@ For the latest streamlit versions, we need to have python 3.10 and higher instal
 ## Run 
 Run the App with:
 
-`streamlit run Homepage.py`
+`streamlit run Pagina_Principal.py`

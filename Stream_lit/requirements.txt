@@ -1,6 +1,9 @@
     streamlit
-    ifcopenshell
     matplotlib
     plotly
     pandas
     xlsxwriter
+    joblib
+    pickle
+    numpy
+    pandas
