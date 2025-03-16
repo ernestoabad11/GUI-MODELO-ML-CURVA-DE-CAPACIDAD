@@ -29,7 +29,7 @@ def load_model(model_path, method='joblib'):
         raise FileNotFoundError(f"The specified model path does not exist: {model_path}")
     
     if method == 'joblib':
-        return joblib.load(model_path)
+        return joblib.load(model_path, mmap_mode=None)
     elif method == 'pickle':
         with open(model_path, 'rb') as file:
             return pickle.load(file)
