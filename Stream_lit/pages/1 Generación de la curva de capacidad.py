@@ -67,7 +67,7 @@ parameters_state_0 = [0, ρh_fyh_fc, ρvbe_fbe_fc, tw_lw, tw_hw, lbe_lw, P_fc_Ag
 
 # Cargar el modelo una vez
 model_path = r'xgb_final_model.pkl'
-model = load_model(model_path, method='pickle')
+model = load_model(model_path, method='joblib')
 
 # Función para actualizar las predicciones
 def update_predictions():
