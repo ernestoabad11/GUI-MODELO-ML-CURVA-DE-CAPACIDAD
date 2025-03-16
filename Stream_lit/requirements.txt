@@ -1,9 +1,0 @@
-    streamlit
-    matplotlib
-    plotly
-    pandas
-    xlsxwriter
-    joblib
-    pickle
-    numpy
-    pandas

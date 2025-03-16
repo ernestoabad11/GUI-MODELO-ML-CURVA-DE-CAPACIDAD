@@ -4,7 +4,7 @@ def main():
     st.set_page_config(
         layout="wide",
         page_title="Modelo Curva de Capacidad",
-        page_icon="✍️",
+        page_icon="🧱​​",
     )
     st.title("Modelo de Curva de Capacidad")
     
