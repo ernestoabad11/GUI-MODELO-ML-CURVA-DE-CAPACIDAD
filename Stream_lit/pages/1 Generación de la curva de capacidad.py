@@ -66,7 +66,7 @@ parameters_state_1 = [1, ρh_fyh_fc, ρvbe_fbe_fc, tw_lw, tw_hw, lbe_lw, P_fc_Ag
 parameters_state_0 = [0, ρh_fyh_fc, ρvbe_fbe_fc, tw_lw, tw_hw, lbe_lw, P_fc_Ag, hw_lw, fyv, fbe, fc, Tag_web_reinf, ρhbe]
 
 # Cargar el modelo una vez
-model_path = r'xgb_final_model_joblib.joblib' #xgb_final_model_pickle.pkl #ernestoabad11/gui-modelo-ml-curva-de-capacidad/main/Stream_lit/
+model_path = r'/mount/src/gui-modelo-ml-curva-de-capacidad/Stream_lit/xgb_final_model_joblib.joblib' #xgb_final_model_pickle.pkl #ernestoabad11/gui-modelo-ml-curva-de-capacidad/main/Stream_lit/
 
 model = load_model(model_path, method='joblib')
 
