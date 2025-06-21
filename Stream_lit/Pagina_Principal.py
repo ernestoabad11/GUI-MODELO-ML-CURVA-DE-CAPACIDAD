@@ -34,7 +34,7 @@ def main():
     """)
     
     # Espacio reservado para una imagen gráfica
-    st.image("Stream_lit\Imagenes\Muro_1.png", caption="Descripción gráfica del modelo", width=400)
+    st.image("Imagenes/Muro_1.png", caption="Descripción gráfica del modelo", width=400)
 
 if __name__ == "__main__":
     main()
