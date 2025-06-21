@@ -34,7 +34,7 @@ def main():
     """)
     
     # Espacio reservado para una imagen gráfica
-    st.image("Imagenes/Muro_1.png", caption="Descripción gráfica del modelo", width=400) #ernestoabad11/gui-modelo-ml-curva-de-capacidad/main/Stream_lit/
+    st.image("/mount/src/gui-modelo-ml-curva-de-capacidad/Stream_lit/Imagenes/Muro_1.png", caption="Descripción gráfica del modelo", width=400) #ernestoabad11/gui-modelo-ml-curva-de-capacidad/main/Stream_lit/
 
 if __name__ == "__main__":
     main()
